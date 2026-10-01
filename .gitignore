@@ -1,0 +1,5 @@
+# Full-size photos kept out of GitHub; web-sized copies go in images/
+_originals/
+
+# macOS Finder files
+.DS_Store

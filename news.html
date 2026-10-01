@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sou Yan Ting Antonio — Sound artist and composer</title>
+  <title>News – Sou Yan Ting Antonio</title>
   <meta name="description" content="Sou Yan Ting Antonio is a Macau-born sound artist and composer based in The Hague, working with live electronics, modular synthesis and feedback-based instruments.">
 
   <!-- Link previews (WhatsApp, Instagram, etc.) -->
   <meta property="og:title" content="Sou Yan Ting Antonio">
   <meta property="og:description" content="Macau-born sound artist and composer based in The Hague. Live electronics, modular synthesis and feedback-based instruments.">
   <meta property="og:image" content="https://sytnax.github.io/images/portrait_2026.jpeg">
-  <meta property="og:url" content="https://sytnax.github.io/">
+  <meta property="og:url" content="https://sytnax.github.io/news.html">
   <meta property="og:type" content="website">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,22 +71,6 @@
     .intro p{ max-width:600px; margin:0 0 16px; }
     .intro a{ color:#000; }
 
-    .latest{
-      font-size:15px;
-      color:#333;
-    }
-
-    .latest a{ white-space:nowrap; }
-
-    .latest .tag{
-      font-family:'Space Mono', monospace;
-      font-size:12px;
-      letter-spacing:0.04em;
-      text-transform:uppercase;
-      color:#666;
-      margin-right:6px;
-    }
-
     /* ---------- Section labels ---------- */
 
     section{ margin-bottom:64px; }
@@ -136,9 +120,6 @@
     }
 
     .tile:hover .thumb img{ opacity:.85; }
-
-    /* Portrait images (e.g. posters): show the lower, title part */
-    .thumb img.portrait{ object-position:center 72%; }
 
     /* Shown until a still image is added for the work */
     .thumb .placeholder{
@@ -227,6 +208,41 @@
 
       .featured{ grid-template-columns:1fr; }
     }
+  
+    /* ---------- News page ---------- */
+
+    .page-title{
+      margin:0 0 48px;
+    }
+
+    .item{
+      border-top:1px solid #ccc;
+      padding-top:20px;
+      margin-bottom:56px;
+    }
+
+    .item h2{
+      font-size:20px;
+      line-height:1.35;
+      margin:4px 0 16px;
+    }
+
+    .item img{
+      width:100%;
+      max-width:600px;
+      display:block;
+      margin-bottom:16px;
+    }
+
+    .item iframe{
+      width:100%;
+      border:none;
+      display:block;
+    }
+
+    .item .yt{ aspect-ratio:16 / 9; height:auto; }
+    .item .sc{ height:166px; }
+    .item .mc{ height:400px; }
   </style>
 </head>
 
@@ -237,10 +253,10 @@
 <!-- LEFT NAVIGATION -->
 
 <nav>
-  <a href="index.html" class="active">Home</a>
+  <a href="index.html">Home</a>
   <br>
   <a href="works.html">Work</a>
-  <a href="news.html">News</a>
+  <a href="news.html" class="active">News</a>
   <a href="research.html">Research</a>
   <a href="about.html">Bio</a>
   <a href="contact.html">Contact</a>
@@ -251,83 +267,32 @@
 
 <div class="content">
 
-<header class="intro">
-  <h1 class="site-title">Sou</h1>
+<h1 class="page-title">News</h1>
 
-  <p>
-    Macau-born sound artist and composer based in The Hague, working with
-    live electronics, modular synthesis and feedback-based instruments to
-    explore how sound emerges through the friction between humans and machines.
-  </p>
+<div class="item">
+  <div class="meta">September 2026</div>
+  <h2>Live with Puck Wacki on Klankvorm’s <em>Kinetic Sounds</em> at Conflux Festival, Katoenhuis, Rotterdam</h2>
+  <!-- CONFLUX-PLAYER: SoundCloud link to come -->
+</div>
 
-  <p>
-    <a href="pdf.html">Portfolio PDF</a> |
-    <a href="https://soundcloud.com/sytnax">SoundCloud</a> |
-    <a href="https://github.com/sytnax">GitHub</a>
-  </p>
+<div class="item">
+  <div class="meta">11 September 2026</div>
+  <h2>Live with Puck Wacki at Keep.Space.Fest #3, De Nijverheid, Utrecht</h2>
+  <iframe class="sc" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/souosou/keepspacefest_liverecording&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</div>
 
-  <p class="latest">
-    <span class="tag">Latest</span>
-    Live with Puck Wacki at Conflux Festival, Rotterdam (September 2026) · <a href="news.html">All news →</a>
-  </p>
-</header>
+<div class="item">
+  <div class="meta">2025</div>
+  <h2>Live performance with a work-in-progress music system at Kunstbar, The Hague</h2>
+  <iframe class="yt" src="https://www.youtube.com/embed/peSirv0mZE0" title="Live performance at Kunstbar, The Hague" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-
-<!-- SELECTED WORK -->
-
-<section>
-  <h2 class="section-label">Work</h2>
-
-  <div class="featured">
-
-    <a class="tile" href="works.html#puck-wacki">
-      <div class="thumb"><img class="portrait" src="images/keep-space-fest/keep-space-fest-poster.jpg" alt="Keep.Space.Fest #3 poster" loading="lazy"></div>
-      <div class="meta">2026 · Live performance</div>
-      <h3>Live with Puck Wacki</h3>
-      <p>Performances at Conflux Festival in Rotterdam and Keep.Space.Fest #3 in Utrecht.</p>
-    </a>
-
-    <a class="tile" href="works.html#macao-alternative">
-      <div class="thumb"><img src="https://i.ytimg.com/vi/ShGvggD2Rko/hqdefault.jpg" alt="Still from the performance at Macao Alternative Music Festival" loading="lazy"></div>
-      <div class="meta">2023 · Live improvisation</div>
-      <h3>Macao Alternative Music Festival</h3>
-      <p>Free improvisation with saxophone and live electronics, exploring acoustic gesture and electronic processing.</p>
-    </a>
-
-    <a class="tile" href="works.html#echoes-of-silver-salt">
-      <div class="thumb"><img src="https://i.ytimg.com/vi/w6S60m1K0Lk/hqdefault.jpg" alt="Still from Echoes of Silver Salt" loading="lazy"></div>
-      <div class="meta">2023 · Audiovisual performance</div>
-      <h3>Echoes of Silver Salt</h3>
-      <p>Sonification and the interplay between sound and moving image, at Push The Envelope.</p>
-    </a>
-
-    <a class="tile" href="works.html#guia-experimental">
-      <div class="thumb"><img src="https://i.ytimg.com/vi/ItRxKnlaSYU/hqdefault.jpg" alt="Still from Guia Experimental Live" loading="lazy"></div>
-      <div class="meta">2020 · Live improvisation</div>
-      <h3>Guia Experimental Live</h3>
-      <p>Live improvisation exploring experimental electronic music and real-time interaction.</p>
-    </a>
-
-    <a class="tile" href="works.html#rebound">
-      <div class="thumb"><span class="placeholder">image to come</span></div>
-      <div class="meta">2019 · Modular improvisation</div>
-      <h3>Rebound</h3>
-      <p>Improvisation with modular synthesis and feedback systems, exploring unpredictable sonic behaviour.</p>
-    </a>
-
-    <a class="tile" href="works.html#wartime-broadcasting-service">
-      <div class="thumb"><span class="placeholder">image to come</span></div>
-      <div class="meta">2017 · Album · Faslane</div>
-      <h3>Wartime Broadcasting Service</h3>
-      <p>Cassette album by Faslane, Sou's electroacoustic duo with Matthew Ho, released on Day’s Eye Records.</p>
-    </a>
-
-  </div>
-
-  <a class="all-works" href="works.html">Details, recordings and videos →</a>
-</section>
-
-
+<div class="item">
+  <div class="meta">2025 · Interview</div>
+  <h2>Sharing speech-oriented computer music with Gg[ghay] in a radio podcast on Radio Worm, Rotterdam</h2>
+  <img src="images/ghay_promo.jpeg" alt="Promotional image for the Gg[ghay] radio podcast on Radio Worm">
+  <iframe class="mc" src="https://player-widget.mixcloud.com/widget/iframe/?light=1&feed=%2Fradiowormrotterdam%2Fgg-ghay-w-fe%25C5%25A1i-a-paprika-09112025%2F" allow="encrypted-media; fullscreen; web-share"></iframe>
+</div>
 
 </div>
 
